@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top left, #0b0b1a, #0a0820, #05030f);
+  color: #e0e0ff;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content {
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #bdbdbd;
+  line-height: 1.6;
+}

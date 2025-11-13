@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(20, 20, 35, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 179, 255, 0.3);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 0 20px rgba(0, 179, 255, 0.2);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #00b3ff;
+  letter-spacing: 1px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1.8rem;
+}
+
+.menu li a {
+  color: #c5c5ff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #9f6eff;
+  text-shadow: 0 0 10px #9f6eff;
+}
+
+.login-btn {
+  background: linear-gradient(90deg, #6e00ff, #00b3ff);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px #00b3ff;
+}
